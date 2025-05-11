@@ -6,3 +6,4 @@ npm run check:fix ||
 (echo 'Something does not worked' && exit 1)
  
 echo 'Done'
+
