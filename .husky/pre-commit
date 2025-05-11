@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo 'Check for listing errors and run tests before comitting'
+npm run check:fix ||
+(echo 'Something does not worked' && exit 1)
+ 
+echo 'Done'
