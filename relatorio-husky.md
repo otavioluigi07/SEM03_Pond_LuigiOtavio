@@ -121,11 +121,11 @@ test("saudacao deve retornar mensagem com nome", () => {
 
 &nbsp;Na imagem a seguir, dois hooks são ativados: pre-commit e commit-msg. Pre-commit verifica os erros do código e os corrige se forem considerados básicos. Entretanto, apenas para arquivos com final .js - configuração feita por mim. Já o commit-msg, verifica o padrão da mensagem do commit. Esse padrão, deve seguir os critérios do " commitlint-config-conventional (based on the Angular convention)".
 
-![alt text](image.png)
+![alt text](precommit.png)
 
 &nbsp;Por último, o pre-push. Esse hook roda todos os arquivos jest .js no repositório. O push só feito se todos os testes passarem.
 
-![alt text](image-1.png)
+![alt text](push.png)
 
 # ✅ Conclusão
 &nbsp;A configuração do Husky nesta atividade permitiu integrar boas práticas ao fluxo de desenvolvimento de forma automatizada. Com os hooks pre-commit, commit-msg e pre-push, garantimos que:
