@@ -1,7 +1,7 @@
-//Código simples para a execução da ponderada
+// index.js
 function saudacao(nome) {
     return `Olá, ${nome}!`;
   }
   
-  console.log(saudacao("Luigi "));
+  module.exports = saudacao;
   
